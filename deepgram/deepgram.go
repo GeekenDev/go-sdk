@@ -1,3 +1,7 @@
+// Deprecated: This is a deprecated version of the SDK and
+// you should use https://pkg.go.dev/github.com/deepgram-devs/deepgram-go-sdk
+// instead.
+
 package deepgram
 
 import (
@@ -5,7 +9,7 @@ import (
 	"net/http"
 )
 
-var sdkVersion string = "0.6.0"
+var sdkVersion string = "0.7.1"
 var dgAgent string = "deepgram-go-sdk/v" + sdkVersion
 
 type Client struct {
